@@ -27,7 +27,7 @@ jobs:
       - name: Stage root pages
         run: |
           mkdir _site
-          cp index.html playground.html editor.html designer.html _site/
+          cp index.html dataflow.html editor.html designer.html viewer.html _site/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
